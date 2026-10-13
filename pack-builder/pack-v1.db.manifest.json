@@ -1,0 +1,11 @@
+{
+  "pack_version": "v1",
+  "built_at": "2026-09-27T07:33:22.201234+00:00",
+  "doc_count": 155,
+  "bytes": 14204928,
+  "sha256": "19ad4d12ae504121c268b134e53c85e591750b030388cf589491099631e49be4",
+  "sources": [
+    "wikipedia-wikitext"
+  ],
+  "license_note": "Wikipedia text: CC BY-SA 4.0. Pack builder attributes per-article in docs.source."
+}

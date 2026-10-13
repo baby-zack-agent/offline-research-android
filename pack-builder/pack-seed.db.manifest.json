@@ -1,0 +1,11 @@
+{
+  "pack_version": "v1",
+  "built_at": "2026-09-27T07:28:16.809286+00:00",
+  "doc_count": 8,
+  "bytes": 45056,
+  "sha256": "ed8fb1709647bad2c52abfb1ff7fcafc80ea7dc8b03b485b400e069b823f595c",
+  "sources": [
+    "embedded-seed"
+  ],
+  "license_note": "Wikipedia text: CC BY-SA 4.0. Pack builder attributes per-article in docs.source."
+}

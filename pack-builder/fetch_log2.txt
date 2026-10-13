@@ -1,0 +1,13 @@
+fetching 156 titles from Wikipedia (build-time network OK)...
+  batch 1: 20 pages so far
+  batch 2: 40 pages so far
+  batch 3: 60 pages so far
+  batch 4: 80 pages so far
+  batch 5: 100 pages so far
+  batch 6: 120 pages so far
+  batch 7: 139 pages so far
+  batch 8: 155 pages so far
+kept 145 docs
+  indexed 100/145
+DONE: 145 docs, 14.4 MB, sha256=191a2e2894a4595d...
+EXIT:0
