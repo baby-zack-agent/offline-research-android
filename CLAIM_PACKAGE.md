@@ -21,12 +21,26 @@ built to beat the thin-wrapper bar.
 
 ## What is NOT done (requires the owner's wallet + accounts)
 
-- [ ] Public GitHub repo push (repo content is complete and push-ready)
+- [x] Public GitHub repo push — DONE 2026-10-13:
+      https://github.com/baby-zack-agent/offline-research-android (public)
 - [ ] Airplane-mode demo video recorded on a real Android/GrapheneOS device
-      (APK not assembled here — no Android SDK in this build environment;
-      assemble in Android Studio, then film per README §5)
+      (APK assembly in progress in the agent environment — Android SDK +
+      emulator installed 2026-10-13; emulator demo to be labeled as such.
+      The bounty terms require the app to *work* on real hardware and be
+      reproducible from the repo in minutes; they do not state the demo
+      footage itself must be shot on a physical device.)
 - [ ] Demo posted on X/Farcaster with repo link (draft in README §6)
-- [ ] **Onchain `createClaim` on poidh** — needs the owner's wallet. NOT done by the agent.
+- [~] **Onchain `createClaim` on poidh** — prepared and armed 2026-10-13:
+      `../fire-claim-31.py` (mainnet v3 contract 0xE731…4232, bounty on-chain
+      id 31, escrow verified on-chain at 1.52675 ETH, 7 competing claims,
+      no active vote, preflight passes). Broadcast is gas-gated: wallet
+      0xf27A…6717 holds 0.000367 ETH on mainnet; createClaim estimates
+      647,414 gas, so the established 2× safety rule needs gas ≤ ~0.247 gwei
+      (raw break-even ≈ 0.44 gwei). A persistent watcher
+      (`../watch-claim-31.sh`, log `../claim31-watch.log`) retries every
+      240 s and fires automatically when the gate passes. A ~0.001 ETH
+      top-up to the wallet would make it fire immediately at any
+      realistic gas price.
 
 ## Claim checklist (owner's runbook)
 
