@@ -30,7 +30,14 @@ built to beat the thin-wrapper bar.
       reproducible from the repo in minutes; they do not state the demo
       footage itself must be shot on a physical device.)
 - [ ] Demo posted on X/Farcaster with repo link (draft in README §6)
-- [~] **Onchain `createClaim` on poidh** — prepared and armed 2026-10-13:
+- [x] **Onchain `createClaim` on poidh** — **FIRED 2026-10-13 14:34 UTC.**
+      Tx: 0x15558374b0b4d9652f1a162ab81b087eb5df94010d0d96ea2ae849ebfa04f34d
+      (block 26184198, status success, gas used 639,747, ~0.000227 ETH).
+      **Claim ID 142** on bounty 31 — verified on-chain and in the poidh
+      indexer. Claim URI = the public repo. Judging: creator decides by
+      Oct 31, 2026 (8 claims total now). Remaining strengthening steps:
+      APK build + emulator demo video + X/Farcaster demo post (see below).
+      Historical note (superseded): the claim was first prepared and armed 2026-10-13:
       `../fire-claim-31.py` (mainnet v3 contract 0xE731…4232, bounty on-chain
       id 31, escrow verified on-chain at 1.52675 ETH, 7 competing claims,
       no active vote, preflight passes). Broadcast is gas-gated: wallet
